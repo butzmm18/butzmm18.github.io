@@ -1,0 +1,65 @@
+a {
+	font-size: 20px;
+}
+div.navbar{
+	background: DarkOrchid;
+}
+h1 {
+padding:none;
+}
+
+.imagemyself {
+	height:200px; 
+	width:200px; 
+
+}
+
+div.main { 
+width:900px;
+margin:0 auto;
+}
+
+/*for the AboutMe page
+*
+*/
+div.aboutme    {
+	text-align:center;
+    width: 475px;
+    height: 400px;
+	float:left;
+}
+
+div.photo {
+	width: 600px;
+    height: 400px;
+    margin-left: 400px;
+}
+
+/* for the Contact page
+*
+*/
+
+
+/* for the Portfolio page
+*
+*/
+div.work1 {
+	text-align:center;
+	float:left;
+	width:300px;
+
+}
+
+div.work2 {
+	text-align:center;
+	float:left;
+	width:200px;
+
+}
+
+div.work3 {
+	text-align:center;
+	width:300px;
+	float:left;
+
+}
