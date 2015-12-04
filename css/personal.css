@@ -1,0 +1,73 @@
+/* 
+Navigation Bar
+*/ 
+
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+/*
+Main Content - About Me page
+*/
+html {
+	padding:25px;
+}
+
+body {
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:20px;
+}
+
+div.col-sm-9 {
+	padding-top:2px;
+	padding-right:20px;
+	padding-left:0;
+}
+
+img#myself {
+	height:200px;
+	width:200px;
+}
+
+/* About Me page gallery */
+
+div.gallery {
+	float:left;
+	width:40%;
+}
+
+div.img {
+
+	/*border:1px solid black; */
+	float:left;
+	margin:15px;
+	height:150px;
+	width:115px;
+}
+
+div.img img {
+		border-radius:50em;
+	margin:5px;
+	height:100px;
+	width:100px;
+}
+
+div.descr {
+	text-align:center;
+	font-size:10px;
+}
